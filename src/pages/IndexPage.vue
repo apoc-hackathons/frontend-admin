@@ -2,9 +2,9 @@
   <q-page class="" padding>
     <div class="text-h6 text-weight-bold q-mb-sm">Current Customers</div>
 
-    <q-card class="my-card">
+    <q-card class="" style="border-radius: 8px">
       <q-list>
-        <q-item clickable v-ripple>
+        <q-item clickable v-ripple to="/customerdata">
           <q-item-section avatar>
             <q-avatar>
               <img src="https://cdn.quasar.dev/img/avatar.png" />
